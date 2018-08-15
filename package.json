@@ -1,0 +1,22 @@
+{
+  "name": "wavenet-audiobook",
+  "version": "1.0.0",
+  "description": "Convert text to an audiobook via WaveNet",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "author": "Tyler Sedlar",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cloudscraper": "^1.5.0",
+    "ffmpeg-static": "^2.3.0",
+    "ffprobe-static": "^2.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "get-proxylist": "^1.0.2",
+    "npm": "^6.3.0",
+    "proxy-lists": "^1.15.3",
+    "request": "^2.88.0"
+  }
+}

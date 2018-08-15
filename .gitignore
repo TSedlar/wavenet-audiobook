@@ -1,0 +1,8 @@
+## nodejs
+node_modules
+
+## project-specifics
+audio/*
+!audio/.gitkeep
+feed
+google-err.txt
